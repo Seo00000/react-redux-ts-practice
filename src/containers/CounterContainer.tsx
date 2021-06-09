@@ -20,14 +20,16 @@ function CounterContainer() {
         dispatch(increaseBy(diff));
     };
 
-    return (
-        <Counter
-            count={count}
-            onIncrease={onIncrease}
-            onDecrease={onDecrease}
-            onIncreaseBy={onIncreaseBy}
-        />
-    );
+    return null;
+    // ts 에러 방지용
+    // return (
+    //     <Counter
+    //         count={count}
+    //         onIncrease={onIncrease}
+    //         onDecrease={onDecrease}
+    //         onIncreaseBy={onIncreaseBy}
+    //     />
+    // );
 }
 
 export default CounterContainer;
