@@ -12,12 +12,12 @@ type CounterProps = {
     onDecrease: () => void;
     onIncreaseBy: (diff: number) => void;
 };
-
+onIncreaseBy
 function Counter({
     count,
     onIncrease,
     onDecrease,
-    onIncreaseBy
+    
 }: CounterProps) {
     return (
         <div>
